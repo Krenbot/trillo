@@ -9,6 +9,7 @@
   --color-grey-dark1: #333;
   --color-grey-dark2: #777;
   --color-grey-dark3: #999;
+  --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, .3);
 }
 
 * {
@@ -41,7 +42,28 @@ body {
 .container {
   max-width: 120rem;
   margin: 8rem auto;
-  background-color: var(--color-grey-light2);
-  box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+  background-color: var(--color-grey-light1);
+  box-shadow: var(--shadow-dark);
   min-height: 50rem;
+}
+
+.header {
+  height: 7rem;
+  background-color: white;
+  border-bottom: var(--color-grey-light2);
+}
+
+.content {
+  display: flex;
+}
+
+.sidebar {
+  background-color: var(--color-grey-dark1);
+  flex: 0 0 18%;
+}
+
+.hotel-view {
+  background-color: white;
+  background-color: orangered;
+  flex: 1;
 }/*# sourceMappingURL=main.css.map */
