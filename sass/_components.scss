@@ -283,14 +283,10 @@
     }
 }
 
-///////////////////////////////////////
-// Paragraph
 .paragraph:not(:last-of-type) {
     margin-bottom: 2rem;
 }
 
-///////////////////////////////////////
-// List
 .list {
     list-style: none;
     padding: 3rem 0;
@@ -326,8 +322,6 @@
     }
 }
 
-///////////////////////////////////////
-// Recommend
 .recommend {
     font-size: 1.3rem;
     color: var(--color-grey-dark-3);
